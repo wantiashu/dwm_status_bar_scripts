@@ -1,8 +1,15 @@
 # dwm_status_bar_scripts
 
+
 "dwm status bar scripts"用于dwm, dynamic window manager, https://dwm.suckless.org/.
 
 "dwm status bar scripts" is for dwm, i.e dynamic window manager, https://dwm.suckless.org/.
+
+它在dwm的状态栏显示cpu，内存和硬盘使用情况。
+
+It displays cpu, ram and disk usage on the dwm status bar
+
+![image](https://github.com/wantiashu/dwm_status_bar_scripts/blob/master/images/image.png)
 
 ## 工作原理 How it works
 
@@ -31,6 +38,10 @@ dwm_status_bar.sh read their output from cache dir and display them on the dwm s
 将dwm_status_bar.sh 和 system_monitoring folder 拷贝到你的home目录。
 
 Copy dwm_status_bar.sh and the system_monitoring folder to anywhere in you home directory.
+
+在dwm_status_bar.sh中设置显示时间间隔，取样间隔，cache dir等。
+
+configure display interval, sample interval, cache directory and so on.
 
 运行 dwm_status_bar.sh 就可以。
 

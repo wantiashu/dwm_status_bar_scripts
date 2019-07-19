@@ -20,9 +20,9 @@ export dsk_sample_interval="1.2"
 # If you want to display only one disk,
 # set the two variable to the same value.
 # root_disk label in sdX
-export root_disk="sdc"
+export root_disk="sda"
 # root_disk label in sdX
-export home_disk="sdd"
+export home_disk="sdb"
 # Configure the cache dir
 # where you want to put cache in 
 # default $HOME/.cache/dwm_status_bar.
